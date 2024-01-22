@@ -1,21 +1,26 @@
 {
   "name": "koishi-plugin-jrniuzi",
   "description": "a plugin for niuzigame dev by mxk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
-  "contributors":[
-    "mckidsteve <mckidsteve@163.com"
-  ],
+  "author":{
+    "name":"mckidsteve",
+    "email":"mckidsteve@163.com",
+    "url":"https://github.com/mckidsteve"
+  },
   "license": "MIT",
   "homepage": "https://github.com/mckidsteve",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mckidsteve/koishi-plugin-jrniuzi.git"
+  },
+  "bugs":{
+    "url" :"https://github.com/mckidsteve/koishi-plugin-jrniuzi/issues"
   },
   "scripts": {},
   "keywords": [
@@ -26,6 +31,22 @@
     "niuzi",
     "game"
   ],
+  "koishi": {
+    "description": {
+      "en": "a plugin for niuzigame dev by mxk",
+      "zh": "一个用于niuzigame的插件"
+    },
+    "service": {
+      "required": [
+        "puppeteer",
+        "canvas"
+      ]
+    },
+    "dependencies": {
+        "@koishijs/canvas": "^0.2.0"
+    },
+    "preview": true
+  },
   "peerDependencies": {
     "koishi": "^4.16.6"
   }
