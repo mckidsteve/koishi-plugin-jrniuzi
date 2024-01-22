@@ -8,12 +8,23 @@
     "lib",
     "dist"
   ],
+  "contributors":[
+    "mckidsteve <mckidsteve@163.com"
+  ],
   "license": "MIT",
+  "homepage": "https://github.com/mckidsteve",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mckidsteve/koishi-plugin-jrniuzi.git"
+  },
   "scripts": {},
   "keywords": [
-    "chatbot",
     "koishi",
-    "plugin"
+    "chatbot",
+    "plugin",
+    "wordle",
+    "niuzi",
+    "game"
   ],
   "peerDependencies": {
     "koishi": "^4.16.6"
