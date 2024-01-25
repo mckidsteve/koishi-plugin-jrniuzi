@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-jrniuzi",
   "description": "a plugin for niuzigame dev by mxk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -48,6 +48,6 @@
     "preview": true
   },
   "peerDependencies": {
-    "koishi": "^4.16.6"
+    "koishi": "^4.16.1"
   }
 }

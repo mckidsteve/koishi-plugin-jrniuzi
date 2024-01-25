@@ -24,11 +24,8 @@ export default defineVariation<Config>({
             }),
         ]),
     ]),
-    guessCount: 6,
+    guessCount: 5,
     validWords: wordlist.map((word: string) => word.split('')),
-    //   init(command, ctx) {
-    //     command.option('random', '-r')
-    //     },
     async getCurrentWord({ session }, { config }) {
         // const GuessWordLength = config.GuessWordLength
         await session.send('请输入一个5个字母的单词')
